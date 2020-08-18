@@ -2,11 +2,11 @@
 <!--
   ~ /**
   ~  * @author Eng.Asma Hawari
-  ~  * @package CodaTrip_ShippmentField
+  ~  * @package CodaTrip_ShipmentField
   ~  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
     <event name="sales_order_save_before">
-        <observer name="set_order_attribute" instance="CodaTrip\ShippmentField\Observer\SetOrderAttribute"/>
+        <observer name="set_order_attribute" instance="CodaTrip\ShipmentField\Observer\SetOrderAttribute"/>
     </event>
 </config>

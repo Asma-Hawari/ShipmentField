@@ -2,14 +2,14 @@
 <!--
   ~ /**
   ~  * @author Eng.Asma Hawari
-  ~  * @package CodaTrip_ShippmentField
+  ~  * @package CodaTrip_ShipmentField
   ~  */
 -->
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="order_additional_info">
-            <block class="\CodaTrip\ShippmentField\Block\ReasonField" name="reason" template="CodaTrip_ShippmentField::field.phtml" after="payment_additional_info"/>
+            <block class="\CodaTrip\ShipmentField\Block\ReasonField" name="reason" template="CodaTrip_ShipmentField::field.phtml" after="payment_additional_info"/>
         </referenceContainer>
     </body>
 </page>

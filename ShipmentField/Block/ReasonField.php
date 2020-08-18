@@ -1,10 +1,10 @@
 <?php
 /**
  *  * @author Eng.Asma Hawari
- *  * @package CodaTrip_ShippmentField
+ *  * @package CodaTrip_ShipmentField
  */
 
-namespace CodaTrip\ShippmentField\Block;
+namespace CodaTrip\ShipmentField\Block;
 
 
 class ReasonField extends \Magento\Framework\View\Element\Template

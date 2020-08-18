@@ -1,9 +1,9 @@
 <?php
 /**
  *  * @author Eng.Asma Hawari
- *  * @package CodaTrip_ShippmentField
+ *  * @package CodaTrip_ShipmentField
  */
-namespace CodaTrip\ShippmentField\Observer;
+namespace CodaTrip\ShipmentField\Observer;
 
 use Magento\Framework\App\RequestInterface;
 

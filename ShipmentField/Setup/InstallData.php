@@ -1,9 +1,9 @@
 <?php
 /**
  *  * @author Eng.Asma Hawari
- *  * @package CodaTrip_ShippmentField
+ *  * @package CodaTrip_ShipmentField
  */
-namespace CodaTrip\ShippmentField\Setup;
+namespace CodaTrip\ShipmentField\Setup;
 
 use Magento\Framework\Setup\InstallDataInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
