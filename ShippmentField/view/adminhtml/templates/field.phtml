@@ -4,10 +4,16 @@
  *  * @package CodaTrip_ShippmentField
  */
 ?>
+<style>
+    .reason-label{
+        font-size: 18px;
+        font-weight: 600;
+    }
+</style>
 <div>
-    <label>Reason</label><br>
+    <label class="reason-label">Reason</label><br><br>
     <textarea id="reason"
-              name="reason">
+              name="history[reason]">
        <?= $block->escapeHtml($block->getReason()) ?>
     </textarea>
 </div>
