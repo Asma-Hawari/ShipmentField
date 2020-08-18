@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+  ~ /**
+  ~  * @author Eng.Asma Hawari
+  ~  * @package CodaTrip_ShippmentField
+  ~  */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+   <body>
+        <referenceBlock name="shipping_method">
+            <block name="reason" template="CodaTrip_ShippmentField::field.phtml" after="-"/>
+        </referenceBlock>
+    </body>
+</page>
